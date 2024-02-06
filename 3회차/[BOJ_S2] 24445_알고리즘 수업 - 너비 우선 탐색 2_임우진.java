@@ -33,7 +33,7 @@ public class Main24445 {
         }
         
         for (int i = 1; i < n + 1; i++) {
-            graph.get(i).sort(Comparator.naturalOrder());
+            graph.get(i).sort(Comparator.reverseOrder());
         }
         
         bfs(r);
